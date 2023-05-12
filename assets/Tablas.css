@@ -1,0 +1,57 @@
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #F7BE68;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  caption {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  thead th {
+    background-color: #1ABC9C;
+    color: white;
+  }
+  
+  tfoot td {
+    background-color: #F7BE68;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
